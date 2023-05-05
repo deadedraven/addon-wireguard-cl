@@ -138,7 +138,7 @@ fi
     echo "PrivateKey = ${server_private_key}"
 
     # Adds server port to the configuration
-    echo "ListenPort = 51820"
+#    echo "ListenPort = 51820"
 
     # Custom routing table
     bashio::config.has_value "server.table" && echo "Table = ${table}"
